@@ -1,0 +1,14 @@
+<br>
+
+
+
+    <div *ngFor="let post of posts">
+        <div class="main-box">
+            <div class="head">
+        <h1 class="">{{post.title}}</h1>
+    </div>
+        <p>{{post.body}}</p>
+        <div class="head bg-shadow down  d-flex justify-content-center">
+            <p>id: {{post.id}}</p>
+            <p> user id: {{post.user_id}}</p>
+        </div>
